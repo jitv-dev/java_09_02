@@ -21,6 +21,7 @@ public class Biblioteca {
     }
 
     // prestarLibro(int numeroLibro): presta el libro 1, 2 o 3
+    // -1 usado para no pensar que el libro 3 corresponde al 3 en la lista, cuando en verdad seria el 4 por indice
     public void prestarLibro(int numeroLibro){
         libros[numeroLibro - 1].prestar();
     }
